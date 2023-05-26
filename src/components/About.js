@@ -4,15 +4,24 @@ import Image from 'next/image';
 function About() {
     return (
         <div className='px-6 bg-black'>
+            <div className='line p-[1px] mx-40 bg-zinc-800'></div>
             <div className='text-white px-8'>
                 <div className="all p-4 py-24">
-                    <div className="up">
+                    <div className="up flex">
                         <div className="two w-[30%] p-4 pl-24">
                             <h1 className='text-4xl font-semibold'>About Us.</h1>
                             <h2 className='text-[#828282] text-4xl'>Small is big.</h2>
                         </div>
-                        <div className="one w-[70%]">
-
+                        <div className="one w-[70%] p-4 px-16">
+                            <div className="aboutone p-4 px-9 text-2xl">
+                                <p className=''>We are small team of creative people who value minimalism and simplicity in everything we do. We get work done and take pride in helping your business grow.</p>
+                            </div>
+                            <div className="abouttwo p-4 px-9 text-base pt-6">
+                                <p className=''>Some designers are great with art, bad with business. Others know what you want to accomplish, but are limited in their design skill. Few know the developemnt abilities needed under the hood to make it all run fast and clean. We&apos;ve got over a decade of experience helping leaders like you have websites worthy of their grand vision</p>
+                            </div>
+                            <div className="aboutthree p-4 px-9 text-base pt-6">
+                                <p className=''>Our websites are designed to look good and deliver world-class user experience at every step, and that grow your audience along the way. Readablity, clean honest design, are all tools we use to help you reach and serve the customers you most want to satisfy</p>
+                            </div>
                         </div>
                     </div>
                     <div className="down flex">
@@ -86,7 +95,7 @@ function About() {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 }
 

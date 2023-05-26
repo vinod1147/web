@@ -37,7 +37,7 @@ export default function Contact() {
                                 <input className='bg-[#262626] outline-none p-3 w-full my-2' type="text" name='subject' />
                                 <p className='text-md mt-4 mb-2'>Message</p>
                                 <textarea name="message" className='bg-[#262626] outline-none p-3 w-full' cols="30" rows="10"></textarea>
-                                <button type='submit' value="send" className='hover:bg-white hover:text-black font-bold border p-3 w-36 mt-2'>Submit</button>
+                                <button type='submit' value="send" className='hover:bg-white hover:text-black font-bold border p-3 w-36 mt-2 tracking-widest'>Submit</button>
                             </form>
                         </div>
                     </div>

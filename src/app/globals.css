@@ -16,3 +16,7 @@
 .images {
   width: 33.333333333%;
 }
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}

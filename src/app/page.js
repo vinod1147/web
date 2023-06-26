@@ -1,5 +1,6 @@
 import About from '@/components/About'
 import Contact from '@/components/Contact'
+import Projects from '@/components/Projects'
 import Services from '@/components/Services'
 import Image from 'next/image'
 
@@ -10,9 +11,10 @@ export default function Home() {
 
 
       </section>
+      <Projects />
       <Services />
       <About />
-      {/* <Contact /> */}
+      <Contact />
     </main>
   )
 }

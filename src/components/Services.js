@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 function Services() {
     return (
@@ -28,26 +29,52 @@ function Services() {
                 </div>
                 <div className="servicetwo px-16 pl-28">
                     <div className='flex'>
-                        <div className="card w-[50%] bg-[#161616] text-white p-16 mr-8 mb-8">
-                            <div className="content logo">Fixed Project Cost</div>
-                            <div className="content heading">Custom Design Project</div>
-                            <div className="content description">Do you have a bigger project in mind and need a high-quality design service? First, we need to discuss your goals and define clear project scope. Then, we&apos;ll give you a fixed project cost proposal and we can schedule the work within 1 to 3 months</div>
-                            <div className="content link hover:underline hover:underline-offset-8">Start a Project arrow</div>
+                        <div className="card w-[50%] bg-[#161616] text-white p-16 pt-20 mr-8 mb-8">
+                            <div className='content logo pb-12'>
+                                <Image src='/next.sv' alt="Image" width={100} height={100}></Image>
+                            </div>
+                            <div className="content text-[#949494]">Fixed Project Cost</div>
+                            <div className="content heading pb-8 text-2xl ">Custom Design Project</div>
+                            <div className="content description pb-10">Do you have a bigger project in mind and need a high-quality design service? First, we need to discuss your goals and define clear project scope. Then, we&apos;ll give you a fixed project cost proposal and we can schedule the work within 1 to 3 months</div>
+                            <div className="content link hover:underline hover:underline-offset-8 cursor-pointer">Start a Project &rarr;</div>
                         </div>
-                        <div className="card w-[50%] bg-[#161616] text-white p-16 mr-8 mb-8">
-                            <div className="content logo">Fixed Project Cost</div>
-                            <div className="content heading">Sales Page Design</div>
-                            <div className="content description">We specialize in designing high-conventing sales pages for digital products. We can help you design the entire page from scratch using our proven formulas</div>
-                            <div className="content link hover:underline hover:underline-offset-8">Start a Project arrow</div>
+                        <div className="card w-[50%] bg-[#161616] text-white p-16 pt-20 mr-8 mb-8">
+                            <div className='content logo pb-12'>
+                                <Image src='/next.sv' alt="Image" width={100} height={100}></Image>
+                            </div>
+                            <div className="content text-[#949494]">Fixed Project Cost</div>
+                            <div className="content heading pb-8 text-2xl ">Sales Page Design</div>
+                            <div className="content description pb-10">We specialize in designing high-conventing sales pages for digital products. We can help you design the entire page from scratch using our proven formulas.</div>
+                            <div className="content link hover:underline hover:underline-offset-8 cursor-pointer">Start a Project &rarr;</div>
                         </div>
                     </div>
+                    <div className='flex'>
+                        <div className="card w-[50%] bg-[#161616] text-white p-16 pt-20 mr-8 mb-8">
+                            <div className='content logo pb-12'>
+                                <Image src='/next.sv' alt="Image" width={100} height={100}></Image>
+                            </div>
+                            <div className="content text-[#949494]">Monthly Retainer</div>
+                            <div className="content heading pb-8 text-2xl ">Marketing Design</div>
+                            <div className="content description pb-10">Need some marketing design help without hiring anyone full-time? This service is great for smaller ongoing design projects like landing pages, social media graphics, ads, banners, print design, and more. It&apos;s easy and flexible. You can start and cancel anytime. No long-term contracts</div>
+                            <div className="content link hover:underline hover:underline-offset-8 cursor-pointer">Request Pricing &rarr;</div>
+                        </div>
+                        <div className="card w-[50%] bg-[#161616] text-white p-16 pt-20 mr-8 mb-8">
+                            <div className='content logo pb-12'>
+                                <Image src='/next.sv' alt="Image" width={100} height={100}></Image>
+                            </div>
+                            <div className="content text-[#949494]">Monthly Retainer</div>
+                            <div className="content heading pb-8 text-2xl ">Agency Partnership</div>
+                            <div className="content description pb-10">Tried of looking for reliable freelancers for you client projects? Partner up with our studio to get high-quality design work on regular basis. It&apos;s easy and flexible. You can start and cancel anytime. No long-term contracts.</div>
+                            <div className="content link hover:underline hover:underline-offset-8 cursor-pointer">Request Pricing &rarr;</div>
+                        </div>
+                    </div >
                     <div className='flex'>
                         <div className="card"></div>
                         <div className="card"></div>
                     </div>
-                </div>
-            </div>
-        </div>
+                </div >
+            </div >
+        </div >
     );
 }
 
